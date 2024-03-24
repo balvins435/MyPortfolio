@@ -1,0 +1,152 @@
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  /* Navigation Styles */
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+  }
+  
+  /* Profile Picture Styles */
+  .profile-picture {
+    margin-right: 10px; /* Adjust spacing between profile picture and navbar links */
+    margin-top: 30px;
+  }
+  
+  .profile-picture img {
+    width: 100px; /* Adjust width of profile picture */
+    height: 100px; /* Adjust height of profile picture */
+    border-radius: 50%; /* Make profile picture circular */
+  }
+  
+  /* Section Styles */
+  .section {
+    padding: 50px 0;
+  }
+  
+  .section h2 {
+    margin-bottom: 30px;
+  }
+  
+  .section p {
+    font-size: 1.1rem;
+  }
+  
+  /* About Section Styles */
+  #about {
+    background-color: #f8f9fa;
+    padding-top: 80px;
+  }
+  
+  /* Education Section Styles */
+  #education {
+    background-color: #343a40;
+    color: #fff;
+    padding-top: 80px;
+  }
+  
+  #education h3 {
+    color: #ffc107;
+    margin-top: 0;
+  }
+  
+  /* Experience Section Styles */
+  #experience {
+    background-color: #007bff;
+    color: #fff;
+    padding-top: 80px;
+  }
+  
+  #experience h3 {
+    color: #ffc107;
+    margin-top: 0;
+  }
+  
+  /* Contact Section Styles */
+  #contact {
+    background-color: #343a40;
+    color: #fff;
+    padding-top: 80px;
+  }
+  
+  #contact h2 {
+    color: #ffc107;
+    margin-top: 0;
+  }
+  
+  #contact ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #contact ul li {
+    margin-bottom: 10px;
+  }
+  
+  #contact a {
+    color: #ffc107;
+  }
+
+
+  /* Custom Styles for Home Section */
+#home {
+    padding-top: 100px; /* Adjust as needed */
+    
+  }
+  
+  .contact-link {
+    display: inline-block;
+    margin-left: 10px; /* Adjust spacing between icons */
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    
+  }
+
+  
+  
+  .contact-link:hover {
+    color: #1775c6; /* Change color on hover */
+  }
+  
+  .contact-link i {
+    
+    font-size: 20px;
+    margin-bottom: 5px; /* Adjust spacing between icon and text */
+  }
+  
+  .link-text {
+    font-size: 14px;
+  }
+  
+  /* Custom Styles for Contact Section */
+#contact {
+    position: relative;
+  }
+  
+  .contact-links {
+    position: absolute;
+    bottom: 20px; /* Adjust the distance from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .contact-link {
+    display: inline-block;
+    margin: 0 10px; /* Adjust spacing between icons */
+    color: white;
+    font-size: 24px; /* Adjust icon size */
+    transition: color 0.3s ease;
+  }
+  
+  .contact-link:hover {
+    color: #1583e3; /* Change color on hover */
+  }
+  
